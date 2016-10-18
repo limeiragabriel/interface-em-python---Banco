@@ -1,1 +1,2 @@
-# interface-em-python---Banco
+# projetoInterfacePython
+projeto universitário LP1, P1 - UFAL
