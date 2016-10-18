@@ -54,6 +54,7 @@ class Controller:
     def saldo(self,nConta,feedBackLabel):
 
         if self.contas.has_key(nConta) :
-            feedBackLabel["text"]=self.contas[nConta]
+            feedBackLabel["text"]= 'R$ '+str(self.contas[nConta].saldo)
+
         else:
             feedBackLabel["text"]="Conta inexistente!"
